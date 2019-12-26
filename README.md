@@ -1,4 +1,4 @@
-# testdemogit
+# supermall
 
 ## Project setup
 ```
