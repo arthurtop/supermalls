@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
+  <router-view></router-view>
   <main-tab-bar></main-tab-bar>
 
 
@@ -10,8 +9,10 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-  import MainTabBar from 'content/mainTabbar/MainTabBar'
+
+  import MainTabBar from 'components/content/mainTabbar/MainTabBar'
+
+
 
 export default {
   name: 'app',
@@ -22,9 +23,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
-/* @import '@assets/css/base.css' */
+  @import 'assets/css/base.css'
 
 
 </style>
